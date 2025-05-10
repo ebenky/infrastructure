@@ -6,6 +6,8 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
+ENV DEVICE = "BENSS"
+
 EXPOSE 5000
 
 COPY ./app/ /app
