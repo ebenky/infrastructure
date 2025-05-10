@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-ENV DEVICE = "BENSS"
+ENV DEVICE = "Device_home" 
 
 EXPOSE 5000
 
